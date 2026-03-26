@@ -1,36 +1,42 @@
-# Alon Skills Public Workspace
+# Alon Skills
 
-This repository is the local public export workspace for Alon skills.
+[简体中文](./README.zh.md)
 
-It is intended to mirror the future public aggregated repository shape:
+Public agent skills by Alon for Claude, Codex, Gemini, and OpenClaw.
 
-```text
-alon-skills/
-  skills/
-    alon-<skill-name>/
+## Install
+
+Install a skill with `skills`:
+
+```bash
+npx skills add alondai/alon-skills --skill <skill-name>
 ```
 
-## Purpose
+Example:
 
-- hold public-safe exported skill releases
-- prepare GitHub-ready skill directories
-- prepare ClawHub-ready skill directories
-- avoid editing private canonical skills into public form by hand
+```bash
+npx skills add alondai/alon-skills --skill alon-github-security-audit
+```
 
-## Source of Truth
+## Available Skills
 
-The source of truth for authored skills remains under:
+### `alon-github-security-audit`
 
-`/Users/alon/.alon/skills`
+Audit a GitHub repository or local codebase for malicious code, backdoors, suspicious network behavior, credential theft patterns, obfuscation, and supply-chain risk.
 
-This workspace is for exported public variants only.
+Path:
 
-Do not treat this directory as the hand-edited development source unless a public export workflow explicitly requires it.
+`skills/alon-github-security-audit`
 
-## Next Step
+## Compatibility
 
-Export individual skills into:
+This repository is intended for agent hosts that support the open `SKILL.md` format, including:
 
-`skills/alon-<skill-name>/`
+- Claude
+- Codex
+- Gemini
+- OpenClaw
 
-after removing or rewriting private paths, runtime data, and other private-only material.
+## Maintained By
+
+Maintained by Alon.
