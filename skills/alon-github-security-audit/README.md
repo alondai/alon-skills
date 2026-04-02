@@ -10,13 +10,6 @@ Audit GitHub repositories or local codebases for malicious code, backdoors, and 
 npx skills add alondai/alon-skills --skill alon-github-security-audit
 ```
 
-Current local install path during private development:
-
-```bash
-ln -s "$(pwd)" ~/.claude/skills/alon-github-security-audit
-ls -l ~/.claude/skills/alon-github-security-audit
-```
-
 ## When to Use
 
 Use this skill when you want to:
@@ -39,7 +32,12 @@ Typical user prompts:
 - inspects network indicators, exfiltration paths, obfuscation, and install chains
 - adds a source-and-permissions preflight for skills and automation tools
 - can optionally extend into online dependency vulnerability intelligence after confirmation
-- writes a structured audit report to the configured local report directory
+- writes a structured audit report to a user-specified directory or the default local report directory
+
+## Requirements
+
+- `git`
+- `python3`
 
 ## Safety and Limits
 
@@ -50,6 +48,7 @@ Typical user prompts:
 - it does not query external vulnerability sources unless the user explicitly approves
 - it does not read unrelated home-directory paths such as `~/.ssh` or browser profile data unless the user explicitly expands scope
 - local-directory audits do not delete user files
+- the default report path is `~/Security-Audit/`, but you can direct reports elsewhere
 
 This skill is designed for triage and security review, not for proving runtime exploitability.
 

@@ -1,7 +1,13 @@
 ---
 name: alon-github-security-audit
 description: 对 GitHub 仓库或本地目录进行全栈安全审计，检测恶意代码、后门和供应链攻击，生成报告写入本地审计目录。当用户说"审计下"、"审计一下"、"安全审计"、"检查下这个仓库"、"审计当前目录"、"审计本地项目"、"check repo"、"audit" 时立即触发。支持 GitHub URL 或本地目录。
-version: 0.1.2
+version: 0.1.3
+metadata:
+  homepage: https://github.com/alondai/alon-skills/tree/master/skills/alon-github-security-audit
+  requires:
+    bins:
+      - git
+      - python3
 ---
 
 # 代码安全审计 Skill
@@ -240,12 +246,18 @@ python3 tools/clone_repo.py "<用户提供的GitHub URL>"
 
 直接将审计报告写入文件：
 
-**输出路径**：`~/Security-Audit/`
+先确定报告输出目录，按以下优先级：
+
+1. 用户明确指定的目录
+2. 当前运行环境已有约定的审计报告目录
+3. 默认建议目录：`~/Security-Audit/`
+
+**默认输出路径**：`~/Security-Audit/`
 **文件命名**：`YYYYMMDD-<对象名>-SecurityAudit-<结论>.md`
 
 说明：
 
-- 当前私有工作流默认把报告写入上述本地审计目录
+- 如果用户未指定路径，默认把报告写入上述本地审计目录
 - 如果后续需要进入 Obsidian，由外部笔记工作流处理；本 skill 本身不要求额外的 Obsidian 配置
 
 报告格式：
@@ -339,7 +351,7 @@ python3 tools/cleanup.py <临时目录路径>
 【结论】
 <Safe / Risky / Dangerous> - <简短说明>
 
-📁 报告已保存: ~/Security-Audit/YYYYMMDD-<对象>-SecurityAudit-<结论>.md
+📁 报告已保存: <报告目录>/YYYYMMDD-<对象>-SecurityAudit-<结论>.md
 ```
 
 ---
