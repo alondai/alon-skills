@@ -28,6 +28,14 @@ Path:
 
 `skills/alon-github-security-audit`
 
+### `alon-search-skill-plus`
+
+Search Claude Code skills across trusted directories, ClawHub, and GitHub adaptation candidates with explicit ranking and safety filters.
+
+Path:
+
+`skills/alon-search-skill-plus`
+
 ## Compatibility
 
 This repository is intended for agent hosts that support the open `SKILL.md` format, including:

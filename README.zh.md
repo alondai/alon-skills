@@ -28,6 +28,14 @@ npx skills add alondai/alon-skills --skill alon-github-security-audit
 
 `skills/alon-github-security-audit`
 
+### `alon-search-skill-plus`
+
+跨可信技能目录、ClawHub 和 GitHub 适配候选仓库搜索 Claude Code skill，并带有明确的来源分级、排序和安全过滤。
+
+路径：
+
+`skills/alon-search-skill-plus`
+
 ## 兼容性
 
 这个仓库面向支持开放 `SKILL.md` 格式的 agent host，包括：
