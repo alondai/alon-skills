@@ -32,7 +32,7 @@ npx skills add alondai/alon-skills --skill alon-github-security-audit
 
 ### `alon-search-skill-plus`
 
-Search Claude Code skills across trusted directories, ClawHub, and GitHub adaptation candidates with explicit ranking and safety filters.
+Search agent skills across trusted directories, ClawHub, and GitHub adaptation candidates with explicit ranking and safety filters.
 
 Install:
 

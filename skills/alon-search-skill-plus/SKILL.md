@@ -1,7 +1,7 @@
 ---
 name: alon-search-skill-plus
-description: Search Claude Code skills across trusted directories, ClawHub, and GitHub adaptation candidates with explicit ranking and safety filters.
-version: 0.1.0
+description: Search agent skills across trusted directories, ClawHub, and GitHub adaptation candidates with explicit ranking and safety filters.
+version: 0.1.1
 model: sonnet
 ---
 

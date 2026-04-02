@@ -2,7 +2,7 @@
 
 # Alon Search Skill Plus
 
-用于跨可信技能目录、ClawHub 和 GitHub 适配候选仓库搜索 Claude Code skill，并带有明确的来源分级、排序和安全过滤。
+用于跨可信技能目录、ClawHub 和 GitHub 适配候选仓库搜索 agent skill，并带有明确的来源分级、排序和安全过滤。
 
 ## 快速安装
 

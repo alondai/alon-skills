@@ -2,7 +2,7 @@
 
 # Alon Search Skill Plus
 
-Search Claude Code skills across trusted directories, ClawHub, and GitHub adaptation candidates with explicit source ranking and security filtering.
+Search agent skills across trusted directories, ClawHub, and GitHub adaptation candidates with explicit source ranking and security filtering.
 
 ## Quick Install
 
