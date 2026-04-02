@@ -6,8 +6,6 @@ Audit GitHub repositories or local codebases for malicious code, backdoors, and 
 
 ## Quick Install
 
-Planned public install path:
-
 ```bash
 npx skills add alondai/alon-skills --skill alon-github-security-audit
 ```

@@ -6,8 +6,6 @@
 
 ## 快速安装
 
-计划中的公开安装方式：
-
 ```bash
 npx skills add alondai/alon-skills --skill alon-github-security-audit
 ```
