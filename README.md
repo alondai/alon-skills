@@ -12,6 +12,18 @@ Install any skill in this repository with:
 npx skills add alondai/alon-skills --skill <skill-name>
 ```
 
+Install all skills from this repository for the current/default agent:
+
+```bash
+npx skills add alondai/alon-skills --skill '*'
+```
+
+Install all skills for all supported agents:
+
+```bash
+npx skills add alondai/alon-skills --all
+```
+
 ## Available Skills
 
 ### `alon-github-security-audit`
