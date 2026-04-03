@@ -32,12 +32,7 @@ npx skills add alondotsh/alon-skills --skill alon-github-security-audit
 - 检查网络指纹、数据外传路径、混淆内容与安装链
 - 对 skill 和自动化工具增加来源与权限预检
 - 经用户确认后可补充联网依赖漏洞情报检查
-- 输出结构化审计报告，写入用户指定目录或默认本地报告目录，便于归档和复查
-
-## 运行要求
-
-- `git`
-- `python3`
+- 输出结构化审计报告，写入本地报告目录，便于归档和复查
 
 ## 安全边界与限制
 
@@ -48,7 +43,6 @@ npx skills add alondotsh/alon-skills --skill alon-github-security-audit
 - 未经用户明确同意，不访问外部漏洞情报源
 - 未经用户明确扩展范围，不读取 `~/.ssh`、浏览器资料目录等无关 home 路径
 - 对本地目录审计时不会删除用户文件
-- 默认报告目录是 `~/Security-Audit/`，但可以改为其他用户指定路径
 
 这个 skill 适合做审计和分诊，不负责证明运行时漏洞是否可利用。
 

@@ -32,12 +32,7 @@ Typical user prompts:
 - inspects network indicators, exfiltration paths, obfuscation, and install chains
 - adds a source-and-permissions preflight for skills and automation tools
 - can optionally extend into online dependency vulnerability intelligence after confirmation
-- writes a structured audit report to a user-specified directory or the default local report directory
-
-## Requirements
-
-- `git`
-- `python3`
+- writes a structured audit report to the configured local report directory
 
 ## Safety and Limits
 
@@ -48,7 +43,6 @@ Typical user prompts:
 - it does not query external vulnerability sources unless the user explicitly approves
 - it does not read unrelated home-directory paths such as `~/.ssh` or browser profile data unless the user explicitly expands scope
 - local-directory audits do not delete user files
-- the default report path is `~/Security-Audit/`, but you can direct reports elsewhere
 
 This skill is designed for triage and security review, not for proving runtime exploitability.
 
