@@ -9,13 +9,13 @@ Public agent skills by Alon for Claude, Codex, Gemini, and OpenClaw.
 Install any skill in this repository with:
 
 ```bash
-npx skills add alondai/alon-skills --skill <skill-name>
+npx skills add alondotsh/alon-skills --skill <skill-name>
 ```
 
 Install all skills from this repository for the current/default agent:
 
 ```bash
-npx skills add alondai/alon-skills --skill '*'
+npx skills add alondotsh/alon-skills --skill '*'
 ```
 
 ## Available Skills
@@ -27,7 +27,7 @@ Audit a GitHub repository or local codebase for malicious code, backdoors, suspi
 Install:
 
 ```bash
-npx skills add alondai/alon-skills --skill alon-github-security-audit
+npx skills add alondotsh/alon-skills --skill alon-github-security-audit
 ```
 
 ### `alon-search-skill-plus`
@@ -37,7 +37,7 @@ Search agent skills across trusted directories, ClawHub, and GitHub adaptation c
 Install:
 
 ```bash
-npx skills add alondai/alon-skills --skill alon-search-skill-plus
+npx skills add alondotsh/alon-skills --skill alon-search-skill-plus
 ```
 
 ## Compatibility
@@ -49,6 +49,12 @@ This repository is intended for agent hosts that support the open `SKILL.md` for
 - Gemini
 - OpenClaw
 
-## Maintained By
+## About Alon
 
-Maintained by Alon.
+These public skills come from Alon's real daily workflows.
+
+Alon is actively exploring the future of agent skills and is open to connecting with people who want to build useful skills.
+
+- GitHub: https://github.com/alondotsh
+- WeChat Official Account: alondotsh
+- X: https://x.com/alondotsh

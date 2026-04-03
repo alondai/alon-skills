@@ -7,7 +7,7 @@ Search agent skills across trusted directories, ClawHub, and GitHub adaptation c
 ## Quick Install
 
 ```bash
-npx skills add alondai/alon-skills --skill alon-search-skill-plus
+npx skills add alondotsh/alon-skills --skill alon-search-skill-plus
 ```
 
 ## When to Use
@@ -45,6 +45,16 @@ The result is a ranked shortlist with:
 - star counts and recency where relevant
 - safety notes for lower-trust sources
 - separate sections for adaptable GitHub repositories
+
+## About Alon
+
+These public skills come from Alon's real daily workflows.
+
+Alon is actively exploring the future of agent skills and is open to connecting with people who want to build useful skills.
+
+- GitHub: https://github.com/alondotsh
+- WeChat Official Account: alondotsh
+- X: https://x.com/alondotsh
 
 ## License
 

@@ -9,13 +9,13 @@
 使用 `skills` 安装本仓库中的任意 skill：
 
 ```bash
-npx skills add alondai/alon-skills --skill <skill-name>
+npx skills add alondotsh/alon-skills --skill <skill-name>
 ```
 
 为当前/默认 agent 安装本仓库中的全部 skills：
 
 ```bash
-npx skills add alondai/alon-skills --skill '*'
+npx skills add alondotsh/alon-skills --skill '*'
 ```
 
 ## 当前 Skills
@@ -27,7 +27,7 @@ npx skills add alondai/alon-skills --skill '*'
 安装命令：
 
 ```bash
-npx skills add alondai/alon-skills --skill alon-github-security-audit
+npx skills add alondotsh/alon-skills --skill alon-github-security-audit
 ```
 
 ### `alon-search-skill-plus`
@@ -37,7 +37,7 @@ npx skills add alondai/alon-skills --skill alon-github-security-audit
 安装命令：
 
 ```bash
-npx skills add alondai/alon-skills --skill alon-search-skill-plus
+npx skills add alondotsh/alon-skills --skill alon-search-skill-plus
 ```
 
 ## 兼容性
@@ -49,6 +49,12 @@ npx skills add alondai/alon-skills --skill alon-search-skill-plus
 - Gemini
 - OpenClaw
 
-## 维护者
+## 关于 Alon
 
-由 Alon 维护。
+这些公开 skills 来自 Alon 日常高频使用的真实工作流。
+
+我长期看好 agent skills，也愿意和对 skill 制作感兴趣的人交流。
+
+- GitHub：https://github.com/alondotsh
+- 公众号：alondotsh
+- X：https://x.com/alondotsh

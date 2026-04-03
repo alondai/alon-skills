@@ -7,7 +7,7 @@
 ## 快速安装
 
 ```bash
-npx skills add alondai/alon-skills --skill alon-github-security-audit
+npx skills add alondotsh/alon-skills --skill alon-github-security-audit
 ```
 
 ## 适用场景
@@ -85,6 +85,16 @@ alon-github-security-audit/
 这个目录是私有 canonical source，可以保留宿主相关和个人工作流相关细节。真正公开发布时，再做 public-safe 导出和清洗。
 
 当前私有工作流中，报告先写入本地报告目录，后续如需进入 Obsidian，再由单独工具链处理。
+
+## 关于 Alon
+
+这些公开 skills 来自 Alon 日常高频使用的真实工作流。
+
+我长期看好 agent skills，也愿意和对 skill 制作感兴趣的人交流。
+
+- GitHub：https://github.com/alondotsh
+- 公众号：alondotsh
+- X：https://x.com/alondotsh
 
 ## License
 

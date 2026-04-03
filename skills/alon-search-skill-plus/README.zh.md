@@ -7,7 +7,7 @@
 ## 快速安装
 
 ```bash
-npx skills add alondai/alon-skills --skill alon-search-skill-plus
+npx skills add alondotsh/alon-skills --skill alon-search-skill-plus
 ```
 
 ## 适用场景
@@ -45,6 +45,16 @@ npx skills add alondai/alon-skills --skill alon-search-skill-plus
 - star 数和最近更新时间（如适用）
 - 低信任来源的安全提示
 - 单独列出的 GitHub 适配候选仓库
+
+## 关于 Alon
+
+这些公开 skills 来自 Alon 日常高频使用的真实工作流。
+
+我长期看好 agent skills，也愿意和对 skill 制作感兴趣的人交流。
+
+- GitHub：https://github.com/alondotsh
+- 公众号：alondotsh
+- X：https://x.com/alondotsh
 
 ## License
 

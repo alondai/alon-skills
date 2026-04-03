@@ -7,7 +7,7 @@ Audit GitHub repositories or local codebases for malicious code, backdoors, and 
 ## Quick Install
 
 ```bash
-npx skills add alondai/alon-skills --skill alon-github-security-audit
+npx skills add alondotsh/alon-skills --skill alon-github-security-audit
 ```
 
 ## When to Use
@@ -85,6 +85,16 @@ alon-github-security-audit/
 The canonical private source lives in the local skills workspace and may contain host-specific private workflow details. Public-safe export cleanup should happen later during release export, not during private development.
 
 In the current private workflow, reports are written to a local report directory and may later be imported into Obsidian by separate tooling.
+
+## About Alon
+
+These public skills come from Alon's real daily workflows.
+
+Alon is actively exploring the future of agent skills and is open to connecting with people who want to build useful skills.
+
+- GitHub: https://github.com/alondotsh
+- WeChat Official Account: alondotsh
+- X: https://x.com/alondotsh
 
 ## License
 
