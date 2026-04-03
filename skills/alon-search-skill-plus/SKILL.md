@@ -320,3 +320,11 @@ If keyword expansion was used, say so explicitly in one short line.
 5. **GitHub repo results are reference candidates first** - They are not automatic endorsements or guaranteed plug-and-play Skills
 6. **Always show GitHub star count for GitHub-hosted results** - Stars are a useful but imperfect trust signal
 7. **Security concerns** - Clearly inform users of risks, let them decide
+
+## About Alon
+
+Public skill from Alon's real daily workflows.
+
+- GitHub: https://github.com/alondotsh
+- WeChat Official Account: alondotsh
+- X: https://x.com/alondotsh
