@@ -1,7 +1,7 @@
 ---
 name: alon-github-security-audit
 description: Audit GitHub repositories or local directories for malicious code, backdoors, suspicious behavior, and supply-chain risk, then write a structured report to a local audit directory. Trigger on phrases such as "审计下", "安全审计", "审计当前目录", "audit", or "check repo". Supports GitHub URLs and local directories.
-version: 0.1.6
+version: 0.1.7
 metadata:
   homepage: https://github.com/alondotsh/alon-skills/tree/master/skills/alon-github-security-audit
   requires:
